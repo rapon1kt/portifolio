@@ -1,0 +1,36 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	font-size: large;
+	width: 100vw;
+	height: 20vh;
+}
+
+.navbar-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	width: 60%;
+	gap: 4rem;
+}
+
+.nav-link {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #8f8f8f;
+}
+
+.nav-link:hover {
+	transition: all 100ms ease;
+	color: aliceblue;
+}
+
+.navbar-medias {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 1rem;
+	width: 20%;
+}
