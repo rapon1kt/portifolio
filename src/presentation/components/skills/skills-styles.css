@@ -1,0 +1,39 @@
+.skill-card-container {
+	display: flex;
+}
+
+.skill-card-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 16px;
+	box-shadow: 5px 5px black;
+}
+
+.skill-card-description {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+}
+
+.skill-card-title,
+.skill-card-experience {
+	color: #8f8f8f;
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.skills-section-title {
+	color: #848484;
+	font-size: 2rem;
+}
+
+.skills-cards {
+	display: flex;
+	justify-content: space-around;
+	width: 50vw;
+}
