@@ -1,0 +1,14 @@
+.divisor {
+	display: flex;
+	align-items: center;
+	justify-content: "center";
+	gap: 1rem;
+}
+
+.divisor-title {
+	color: #848484;
+}
+
+.divisor-curve {
+	width: 60vw;
+}
