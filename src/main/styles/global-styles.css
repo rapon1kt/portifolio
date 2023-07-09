@@ -5,5 +5,8 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Dosis";
+}
+
+:root {
 	background-color: #242424;
 }
