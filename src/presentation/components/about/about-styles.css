@@ -1,0 +1,34 @@
+.about-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+
+.me {
+	display: flex;
+	gap: 2rem;
+}
+
+.me-img {
+	width: 300px;
+	height: 300px;
+	border-radius: 16px;
+	box-shadow: 10px 10px 20px black;
+}
+
+.me-title {
+	font-size: 2rem;
+	color: #848484;
+}
+
+.me-text {
+	max-width: 30vw;
+	font-size: 1.5rem;
+	color: #848484;
+}
+
+.me-link {
+	color: #b3b3b3;
+	text-decoration: none;
+}
