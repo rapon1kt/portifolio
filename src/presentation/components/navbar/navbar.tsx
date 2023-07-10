@@ -11,28 +11,11 @@ const Navbar: React.FC = () => {
 			<AllInclusiveOutlinedIcon
 				sx={{ fontSize: "4rem", color: "#8f8f8f", width: "20%" }}
 			/>
-			<ul className="navbar-nav">
-				<li className="nav-item">
-					<a className="nav-link" href="#home">
-						Home
-					</a>
-				</li>
-				<li className="nav-item">
-					<a className="nav-link" href="#about">
-						About
-					</a>
-				</li>
-				<li className="nav-item">
-					<a className="nav-link" href="#skills">
-						Skills
-					</a>
-				</li>
-				<li className="nav-item">
-					<a className="nav-link" href="#projects">
-						Projects
-					</a>
-				</li>
-			</ul>
+			<h2 className="navbar-phrase">
+				"The learned man is a discoverer of facts that already exist - but the
+				wise man is a creator of values ​​that do not exist and which he makes
+				exist." - Albert Einstein
+			</h2>
 			<ul className="navbar-medias">
 				<li className="nav-item">
 					<a className="nav-link" href="https://github.com/rapon1kt">
