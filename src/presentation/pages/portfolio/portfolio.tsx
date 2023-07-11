@@ -1,4 +1,4 @@
-import { About, Navbar, Skills, Divisor } from "../../components";
+import { About, Navbar, Skills, Divisor, Footer } from "../../components";
 import "./portfolio-styles.css";
 
 function Portfolio() {
@@ -9,6 +9,7 @@ function Portfolio() {
 			<About />
 			<Divisor section="Skills" />
 			<Skills />
+			<Footer />
 		</div>
 	);
 }
