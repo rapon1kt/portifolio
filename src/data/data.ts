@@ -14,6 +14,11 @@ const data = [
 		experience: "1 year",
 		img: "assets/typescript.png",
 	},
+	{
+		name: "C++",
+		experience: "3 months",
+		img: "assets/c-plus.png",
+	},
 ];
 
 export default data;
