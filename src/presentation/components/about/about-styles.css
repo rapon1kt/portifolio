@@ -26,9 +26,56 @@
 	max-width: 30vw;
 	font-size: 1.5rem;
 	color: #848484;
+	font-weight: 600;
 }
 
 .me-link {
 	color: #b3b3b3;
 	text-decoration: none;
+}
+
+@media screen and (max-width: 1110px) {
+	.about-container {
+		width: 100vw;
+	}
+
+	.me-img {
+		width: 280px;
+		height: 280px;
+	}
+
+	.me-text {
+		font-size: 1.35rem;
+		max-width: 40vw;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.me {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+
+	.me-img {
+		border-radius: 50%;
+		box-shadow: none;
+		border: 2px solid black;
+	}
+
+	.me-description {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.me-text {
+		max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.me-text {
+		max-width: 95%;
+	}
 }

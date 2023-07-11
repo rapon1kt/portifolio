@@ -7,7 +7,9 @@ const About: React.FC = () => {
 			<div className="me">
 				<img className="me-img" src="assets/raponikt.png" alt="raponikt" />
 				<div className="me-description">
-					<h2 className="me-title">rapon1kt</h2>
+					<h2 className="me-title">
+						<u>rapon1kt</u>
+					</h2>
 					<p className="me-text">
 						Hi, my name is Gustavo Raponi Silva. I am a high school programmer
 						who is always looking to acquire more knowledge in technology and
