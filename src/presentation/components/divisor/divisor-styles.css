@@ -12,3 +12,13 @@
 .divisor-curve {
 	width: 60vw;
 }
+
+@media screen and (max-width: 800px) {
+	.divisor {
+		width: 100%;
+		flex-direction: column;
+	}
+	.divisor-curve {
+		width: 95%;
+	}
+}
